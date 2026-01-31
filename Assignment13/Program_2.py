@@ -11,7 +11,7 @@ def calculateAreaOfCircleFrom(radius):
     return 2*pi*radius
 
 def main():
-    radius = int(input("Enter Radius: "))
+    radius = float(input("Enter Radius: "))
     print("Calculated area is: ", calculateAreaOfCircleFrom(radius))
 
 if __name__ == "__main__":
