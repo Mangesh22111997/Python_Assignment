@@ -22,3 +22,20 @@ Obj2 = BookStore("C Programming", "Dennis Ritchie")
 Obj2.Display()   # C Programming by Dennis Ritchie. No of books: 2
 
 """
+
+class BookStore:
+    NoofBooks = 0  # Class variable to keep track of number of books
+
+    def __init__(self, Name, Author):
+        self.Name = Name  # Instance variable for book name
+        self.Author = Author  # Instance variable for book author
+        BookStore.NoofBooks = BookStore.NoofBooks + 1  # Increment class variable when a new book is created
+
+    def Display(self):
+        print(f"{self.Name} by {self.Author}. No of books: {BookStore.NoofBooks}")
+
+
+Obj1 = BookStore("Linux System Programming", "Robert Love")
+Obj1.Display()   # Linux System Programming by Robert Love. No of\books: 1
+Obj2 = BookStore("C Programming", "Dennis Ritchie")
+Obj2.Display()   # C Programming by Dennis Ritchie. No of books: 2
