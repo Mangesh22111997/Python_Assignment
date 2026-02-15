@@ -1,0 +1,63 @@
+Duplicate file found: Demo\a.txt is a duplicate of Demo\a.exe
+Duplicate file found: Demo\a.txt is a duplicate of Demo\a.exe
+Duplicate file found: Demo\a.txt is a duplicate of Demo\a.exe
+Duplicate file found: Demo\b.py is a duplicate of Demo\a.py
+Duplicate file found: Demo\b.txt is a duplicate of Demo\a.exe
+Duplicate file found: Demo\c.txt is a duplicate of Demo\a.py
+Unique file: Demo\a.txt
+Unique file: Demo\a.txt
+Unique file: Demo\b.py
+Duplicate file found: Demo\b.txt is a duplicate of Demo\a.txt
+Unique file: Demo\a.txt
+Unique file: Demo\b.py
+Duplicate file found: Demo\c.txt is a duplicate of Demo\b.py
+Unique file: Demo\a.txt
+Unique file: Demo\b.py
+Unique file: Demo\b.txt
+Unique file: Demo\b.txt
+Unique file: Demo\c.txt
+Unique file: Demo\a.exe
+Deleting duplicate file: Demo\a.exe
+Unique file: Demo\a.exe
+Deleting duplicate file: Demo\a.exe
+Unique file: Demo\a.py
+Deleting duplicate file: Demo\a.py
+Duplicate file found: Demo\a.txt is a duplicate of Demo\a.exe
+Unique file: Demo\a.exe
+Deleting duplicate file: Demo\a.exe
+Unique file: Demo\a.py
+Deleting duplicate file: Demo\a.py
+Unique file: Demo\a.exe
+Deleting duplicate file: Demo\a.exe
+Unique file: Demo\a.py
+Deleting duplicate file: Demo\a.py
+Unique file: Demo\b.py
+Deleting duplicate file: Demo\b.py
+Duplicate file found: Demo\b.txt is a duplicate of Demo\a.exe
+Unique file: Demo\a.exe
+Deleting duplicate file: Demo\a.exe
+Unique file: Demo\a.py
+Deleting duplicate file: Demo\a.py
+Unique file: Demo\b.py
+Deleting duplicate file: Demo\b.py
+Duplicate file found: Demo\c.txt is a duplicate of Demo\a.exe
+Unique file: Demo\a.exe
+Deleting duplicate file: Demo\a.exe
+Unique file: Demo\a.py
+Deleting duplicate file: Demo\a.py
+Unique file: Demo\b.py
+Deleting duplicate file: Demo\b.py
+Unique file: Demo\demo subfolder\1.py
+Deleting duplicate file: Demo\demo subfolder\1.py
+Unique file: Demo\demo subfolder\1.py
+Deleting duplicate file: Demo\demo subfolder\1.py
+Unique file: Demo\demo subfolder\abc.txt
+Deleting duplicate file: Demo\demo subfolder\abc.txt
+Unique file: Demo\demo subfolder\1.py
+Deleting duplicate file: Demo\demo subfolder\1.py
+Unique file: Demo\demo subfolder\abc.txt
+Deleting duplicate file: Demo\demo subfolder\abc.txt
+Unique file: Demo\demo subfolder\b.exe
+Deleting duplicate file: Demo\demo subfolder\b.exe
+Unique file: Demo\demo subfolder\demooo\c.exe
+Deleting duplicate file: Demo\demo subfolder\demooo\c.exe

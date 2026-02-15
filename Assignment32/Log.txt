@@ -1,0 +1,4 @@
+Duplicate file found: Demo\a.txt is a duplicate of Demo\a.exe
+Duplicate file found: Demo\b.py is a duplicate of Demo\a.py
+Duplicate file found: Demo\b.txt is a duplicate of Demo\a.exe
+Duplicate file found: Demo\c.txt is a duplicate of Demo\a.py
