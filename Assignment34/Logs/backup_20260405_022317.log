@@ -1,0 +1,22 @@
+================================================================================
+MARVELLOUS DATA SHIELD SYSTEM - BACKUP LOG
+================================================================================
+Backup Start Time: 2026-04-05 02:23:17
+================================================================================
+
+[2026-04-05 02:23:17] [FUNCTION: create_backup] Backup process started
+[2026-04-05 02:23:17] Source Directory: G:\Mangesh\Python\Python_Assignments\Assignment34\TestData
+[2026-04-05 02:23:17] Total files in source: 2
+[2026-04-05 02:23:17] Previous checksums recorded: 0
+[2026-04-05 02:23:17] Checking file changes using checksums...
+[2026-04-05 02:23:17] [NEW FILE] file1.txt
+[2026-04-05 02:23:17] [NEW FILE] file2.txt
+[2026-04-05 02:23:17] New files detected: 2
+[2026-04-05 02:23:17] Modified files detected: 0
+[2026-04-05 02:23:17] Total backup size: 0.00 MB
+[2026-04-05 02:23:17] Creating zip file: Backups\backup_TestData_20260405_022317.zip
+[2026-04-05 02:23:17] Progress: 2/2 files added
+[2026-04-05 02:23:17] Zip file name: backup_TestData_20260405_022317.zip
+[2026-04-05 02:23:17] Zip file size: 0.00 MB
+[2026-04-05 02:23:17] Compression ratio: -229.5%
+[2026-04-05 02:23:17] Checksums updated for next backup cycle

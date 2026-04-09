@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2026-04-05 02:23:17",
+    "backup_file": "backup_TestData_20260405_022317.zip",
+    "file_count": 2,
+    "zip_size_mb": 0.0,
+    "full_path": "G:\\Mangesh\\Python\\Python_Assignments\\Assignment34\\Backups\\backup_TestData_20260405_022317.zip"
+  },
+  {
+    "date": "2026-04-05 02:23:35",
+    "backup_file": "backup_TestData_20260405_022335.zip",
+    "file_count": 1,
+    "zip_size_mb": 0.0,
+    "full_path": "G:\\Mangesh\\Python\\Python_Assignments\\Assignment34\\Backups\\backup_TestData_20260405_022335.zip"
+  }
+]

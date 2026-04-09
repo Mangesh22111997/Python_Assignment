@@ -1,0 +1,1315 @@
+================================================================================
+PLATFORM SURVEILLANCE SYSTEM - LOG FILE
+================================================================================
+Start Time: 2026-04-04 16:36:47.167797
+Log Folder: MarvellousLogs
+Monitoring Interval: 10 minute(s)
+================================================================================
+
+
+********************************************************************************
+MONITORING CYCLE #1
+Cycle Start Time: 2026-04-04 16:36:47.167797
+********************************************************************************
+
+
+================================================================================
+[FUNCTION: thread_monitoring] - Execution Time: 2026-04-04 16:36:47.168800
+================================================================================
+Thread Monitoring Report
+Process Name                   PID        Thread Count   
+-------------------------------------------------------
+System Idle Process            0          8              
+
+System                         4          228            
+                               72         0              
+csrss.exe                      92         14             
+Registry                       132        4              
+smss.exe                       460        2              
+csrss.exe                      768        11             
+brave.exe                      824        20             
+services.exe                   836        7              
+LsaIso.exe                     844        1              
+lsass.exe                      860        10             
+winlogon.exe                   932        3              
+wininit.exe                    1020       1              
+svchost.exe                    1032       11             
+fontdrvhost.exe                1068       5              
+WUDFHost.exe                   1108       7              
+fontdrvhost.exe                1156       5              
+brave.exe                      1172       11             
+svchost.exe                    1224       11             
+brave.exe                      1236       21             
+svchost.exe                    1272       3              
+brave.exe                      1404       22             
+brave.exe                      1408       19             
+SecurityHealthService.exe      1432       6              
+svchost.exe                    1444       3              
+svchost.exe                    1452       2              
+svchost.exe                    1468       2              
+svchost.exe                    1496       7              
+StartMenuExperienceHost.exe    1540       7              
+svchost.exe                    1572       4              
+svchost.exe                    1580       1              
+dwm.exe                        1620       14             
+svchost.exe                    1736       1              
+IntelCpHDCPSvc.exe             1800       3              
+svchost.exe                    1824       11             
+svchost.exe                    1832       1              
+svchost.exe                    1864       6              
+svchost.exe                    1896       4              
+msedgewebview2.exe             1952       9              
+brave.exe                      2072       20             
+IntelCpHeciSvc.exe             2076       3              
+svchost.exe                    2096       3              
+svchost.exe                    2104       8              
+svchost.exe                    2116       1              
+brave.exe                      2152       19             
+svchost.exe                    2184       2              
+svchost.exe                    2220       10             
+brave.exe                      2224       19             
+brave.exe                      2280       19             
+svchost.exe                    2288       6              
+pet.exe                        2360       9              
+Code.exe                       2404       8              
+svchost.exe                    2412       3              
+svchost.exe                    2420       3              
+svchost.exe                    2440       2              
+conhost.exe                    2448       2              
+svchost.exe                    2452       8              
+svchost.exe                    2460       3              
+svchost.exe                    2504       1              
+SebWindowsServiceWCF.exe       2508       4              
+svchost.exe                    2572       5              
+svchost.exe                    2588       11             
+svchost.exe                    2640       2              
+Code.exe                       2684       13             
+svchost.exe                    2688       7              
+svchost.exe                    2708       8              
+vmms.exe                       2784       12             
+svchost.exe                    2868       1              
+NVDisplay.Container.exe        2908       31             
+svchost.exe                    2956       15             
+svchost.exe                    2980       4              
+svchost.exe                    2992       5              
+MemCompression                 3112       54             
+Code.exe                       3136       30             
+igfxCUIService.exe             3180       2              
+dasHost.exe                    3244       2              
+svchost.exe                    3284       5              
+svchost.exe                    3292       2              
+svchost.exe                    3404       5              
+brave.exe                      3440       19             
+svchost.exe                    3464       7              
+svchost.exe                    3552       1              
+svchost.exe                    3592       10             
+brave.exe                      3608       7              
+svchost.exe                    3640       6              
+conhost.exe                    3668       5              
+svchost.exe                    3708       14             
+vmcompute.exe                  3824       3              
+EpicWebHelper.exe              3872       16             
+UserOOBEBroker.exe             3884       1              
+svchost.exe                    4032       3              
+BraveCrashHandler64.exe        4084       3              
+Code.exe                       4112       57             
+NVDisplay.Container.exe        4156       26             
+RuntimeBroker.exe              4164       10             
+svchost.exe                    4508       14             
+svchost.exe                    4644       3              
+svchost.exe                    4744       9              
+conhost.exe                    4792       5              
+svchost.exe                    4808       6              
+BraveCrashHandler.exe          4828       3              
+RAVBg64.exe                    4856       4              
+dllhost.exe                    4908       5              
+RtkAudioService64.exe          4928       2              
+svchost.exe                    5024       4              
+svchost.exe                    5032       9              
+svchost.exe                    5136       3              
+wlanext.exe                    5200       1              
+spoolsv.exe                    5208       7              
+conhost.exe                    5216       2              
+brave.exe                      5228       19             
+svchost.exe                    5280       4              
+svchost.exe                    5360       5              
+svchost.exe                    5440       8              
+svchost.exe                    5448       15             
+OfficeClickToRun.exe           5456       23             
+svchost.exe                    5484       18             
+ibmpmsvc.exe                   5532       9              
+sihost.exe                     5592       8              
+svchost.exe                    5648       10             
+OneApp.IGCC.WinService.exe     5660       9              
+svchost.exe                    5684       1              
+jhi_service.exe                5696       2              
+svchost.exe                    5704       7              
+svchost.exe                    5728       8              
+nvWmi64.exe                    5892       1              
+EasyResume.exe                 5920       4              
+svchost.exe                    5940       4              
+svchost.exe                    5964       4              
+SafeExamBrowser.Service.exe    5984       4              
+svchost.exe                    6000       7              
+MpDefenderCoreService.exe      6020       13             
+msedgewebview2.exe             6028       12             
+mysqld.exe                     6052       3              
+brave.exe                      6100       45             
+mongod.exe                     6112       34             
+SynTPEnh.exe                   6128       13             
+svchost.exe                    6156       4              
+SynTPEnhService.exe            6180       5              
+svchost.exe                    6196       3              
+svchost.exe                    6232       2              
+UltraViewer_Service.exe        6248       10             
+svchost.exe                    6272       3              
+PresentationFontCache.exe      6280       4              
+brave.exe                      6360       19             
+tnslsnr.exe                    6424       3              
+WMIRegistrationService.exe     6436       2              
+oravssw.exe                    6448       2              
+RuntimeBroker.exe              6476       1              
+oracle.exe                     6488       90             
+svchost.exe                    6516       7              
+omtsreco.exe                   6536       4              
+wslservice.exe                 6552       8              
+taskhostw.exe                  6588       7              
+MsMpEng.exe                    6660       40             
+svchost.exe                    6744       4              
+Code.exe                       6864       13             
+LockApp.exe                    6888       12             
+svchost.exe                    7108       11             
+mysqld.exe                     7392       40             
+conhost.exe                    7416       4              
+brave.exe                      7424       21             
+PowerMgr.exe                   7444       10             
+conhost.exe                    7456       2              
+Code.exe                       7516       28             
+taskhostw.exe                  7520       8              
+svchost.exe                    7536       26             
+conhost.exe                    7540       2              
+igfxEM.exe                     7604       3              
+SystemSettingsBroker.exe       7716       14             
+EpicOnlineServicesUserHelper.exe 7724       11             
+svchost.exe                    7736       2              
+conhost.exe                    7784       2              
+brave.exe                      7816       18             
+explorer.exe                   7876       76             
+brave.exe                      7896       19             
+brave.exe                      7912       21             
+SearchIndexer.exe              8020       15             
+SearchApp.exe                  8040       14             
+svchost.exe                    8596       1              
+msedgewebview2.exe             8628       55             
+nvWmi64.exe                    8676       5              
+svchost.exe                    8736       3              
+AggregatorHost.exe             8784       4              
+svchost.exe                    8928       7              
+svchost.exe                    8992       1              
+SDXHelper.exe                  9148       18             
+brave.exe                      9256       19             
+TabTip.exe                     9332       9              
+brave.exe                      9344       19             
+SynTPHelper.exe                9384       1              
+svchost.exe                    9420       4              
+brave.exe                      9452       19             
+svchost.exe                    9592       2              
+brave.exe                      9628       19             
+NisSrv.exe                     9752       10             
+dllhost.exe                    9856       5              
+svchost.exe                    9940       10             
+python.exe                     10244      6              
+MoUsoCoreWorker.exe            10260      7              
+RuntimeBroker.exe              10276      2              
+svchost.exe                    10604      3              
+svchost.exe                    10828      2              
+ctfmon.exe                     10844      11             
+SecurityHealthSystray.exe      10868      1              
+RuntimeBroker.exe              10876      14             
+svchost.exe                    11076      8              
+TextInputHost.exe              11156      10             
+powershell.exe                 11164      11             
+powershell.exe                 11520      16             
+svchost.exe                    11816      4              
+svchost.exe                    12004      3              
+Code.exe                       12132      19             
+powershell.exe                 12368      11             
+Code.exe                       12444      27             
+taskhostw.exe                  12564      3              
+conhost.exe                    12604      2              
+RuntimeBroker.exe              12624      2              
+PhoneExperienceHost.exe        12720      16             
+msedgewebview2.exe             12800      12             
+igfxext.exe                    12932      2              
+msedgewebview2.exe             12992      23             
+msedgewebview2.exe             13020      22             
+SearchApp.exe                  13176      59             
+brave.exe                      13232      19             
+RAVCpl64.exe                   13252      6              
+DolbyDAX2API.exe               13280      8              
+svchost.exe                    13404      2              
+Code.exe                       13564      7              
+msedgewebview2.exe             13608      25             
+brave.exe                      13740      21             
+Code.exe                       13808      17             
+brave.exe                      13812      19             
+ShellExperienceHost.exe        13840      30             
+pet.exe                        13884      9              
+Code.exe                       13900      20             
+RuntimeBroker.exe              13960      12             
+Code.exe                       14200      35             
+conhost.exe                    14256      5              
+ApplicationFrameHost.exe       14276      2              
+Code.exe                       14316      26             
+SystemSettings.exe             14332      19             
+python.exe                     14472      6              
+brave.exe                      14620      18             
+brave.exe                      14812      12             
+brave.exe                      14872      19             
+OneDrive.Sync.Service.exe      14888      24             
+Code.exe                       14904      20             
+brave.exe                      15012      19             
+brave.exe                      15068      19             
+conhost.exe                    15284      5              
+brave.exe                      15288      19             
+conhost.exe                    15384      2              
+CompPkgSrv.exe                 15388      1              
+brave.exe                      15472      19             
+brave.exe                      15492      20             
+brave.exe                      15760      19             
+brave.exe                      15812      22             
+brave.exe                      15908      10             
+brave.exe                      15916      10             
+EpicGamesLauncher.exe          16080      60             
+brave.exe                      16184      19             
+Code.exe                       16464      12             
+brave.exe                      16468      20             
+Code.exe                       16560      8              
+brave.exe                      16752      22             
+brave.exe                      16888      19             
+powershell.exe                 17336      11             
+svchost.exe                    17544      5              
+pet.exe                        18524      9              
+brave.exe                      18544      19             
+pet.exe                        18736      9              
+svchost.exe                    18812      5              
+brave.exe                      18944      19             
+EpicOnlineServicesUserHelper.exe 19056      13             
+brave.exe                      19096      18             
+EpicWebHelper.exe              19240      16             
+brave.exe                      19384      19             
+brave.exe                      19448      19             
+brave.exe                      19540      18             
+python.exe                     19544      4              
+conhost.exe                    19712      3              
+EpicWebHelper.exe              19884      11             
+svchost.exe                    19936      5              
+Code.exe                       19956      31             
+EpicWebHelper.exe              20020      8              
+brave.exe                      20412      19             
+Code.exe                       21192      8              
+svchost.exe                    21360      3              
+svchost.exe                    21464      13             
+-------------------------------------------------------
+Total processes monitored: 290
+Status: COMPLETED SUCCESSFULLY
+================================================================================
+
+
+================================================================================
+[FUNCTION: open_files_monitoring] - Execution Time: 2026-04-04 16:36:48.577796
+================================================================================
+Open Files Monitoring Report
+Process Name                   PID        Open Files     
+-------------------------------------------------------
+System Idle Process            0          0              
+System                         4          0              
+                               72         Access Denied  
+csrss.exe                      92         Access Denied  
+Registry                       132        Access Denied  
+smss.exe                       460        Access Denied  
+csrss.exe                      768        Access Denied  
+brave.exe                      824        32             
+services.exe                   836        Access Denied  
+LsaIso.exe                     844        Access Denied  
+lsass.exe                      860        Access Denied  
+winlogon.exe                   932        Access Denied  
+wininit.exe                    1020       Access Denied  
+svchost.exe                    1032       Access Denied  
+fontdrvhost.exe                1068       Access Denied  
+WUDFHost.exe                   1108       Access Denied  
+fontdrvhost.exe                1156       Access Denied  
+brave.exe                      1172       22             
+svchost.exe                    1224       Access Denied  
+brave.exe                      1236       23             
+svchost.exe                    1272       Access Denied  
+brave.exe                      1404       26             
+brave.exe                      1408       12             
+SecurityHealthService.exe      1432       Access Denied  
+svchost.exe                    1444       Access Denied  
+svchost.exe                    1452       Access Denied  
+svchost.exe                    1468       Access Denied  
+svchost.exe                    1496       Access Denied  
+StartMenuExperienceHost.exe    1540       13             
+svchost.exe                    1572       Access Denied  
+svchost.exe                    1580       Access Denied  
+dwm.exe                        1620       Access Denied  
+svchost.exe                    1736       Access Denied  
+IntelCpHDCPSvc.exe             1800       Access Denied  
+svchost.exe                    1824       Access Denied  
+svchost.exe                    1832       Access Denied  
+svchost.exe                    1864       Access Denied  
+svchost.exe                    1896       Access Denied  
+msedgewebview2.exe             1952       1              
+brave.exe                      2072       12             
+IntelCpHeciSvc.exe             2076       Access Denied  
+svchost.exe                    2096       Access Denied  
+svchost.exe                    2104       Access Denied  
+svchost.exe                    2116       1              
+brave.exe                      2152       15             
+svchost.exe                    2184       Access Denied  
+svchost.exe                    2220       Access Denied  
+brave.exe                      2224       6              
+brave.exe                      2280       26             
+svchost.exe                    2288       Access Denied  
+pet.exe                        2360       2              
+Code.exe                       2404       28             
+svchost.exe                    2412       Access Denied  
+svchost.exe                    2420       Access Denied  
+svchost.exe                    2440       Access Denied  
+conhost.exe                    2448       1              
+svchost.exe                    2452       Access Denied  
+svchost.exe                    2460       Access Denied  
+svchost.exe                    2504       Access Denied  
+SebWindowsServiceWCF.exe       2508       Access Denied  
+svchost.exe                    2572       Access Denied  
+svchost.exe                    2588       Access Denied  
+svchost.exe                    2640       Access Denied  
+Code.exe                       2684       28             
+svchost.exe                    2688       Access Denied  
+svchost.exe                    2708       Access Denied  
+vmms.exe                       2784       Access Denied  
+svchost.exe                    2868       Access Denied  
+NVDisplay.Container.exe        2908       Access Denied  
+svchost.exe                    2956       Access Denied  
+svchost.exe                    2980       Access Denied  
+svchost.exe                    2992       Access Denied  
+MemCompression                 3112       Access Denied  
+Code.exe                       3136       40             
+igfxCUIService.exe             3180       Access Denied  
+dasHost.exe                    3244       Access Denied  
+svchost.exe                    3284       Access Denied  
+svchost.exe                    3292       Access Denied  
+svchost.exe                    3404       Access Denied  
+brave.exe                      3440       14             
+svchost.exe                    3464       Access Denied  
+svchost.exe                    3552       Access Denied  
+svchost.exe                    3592       Access Denied  
+brave.exe                      3608       2              
+svchost.exe                    3640       Access Denied  
+conhost.exe                    3668       1              
+svchost.exe                    3708       Access Denied  
+vmcompute.exe                  3824       Access Denied  
+EpicWebHelper.exe              3872       8              
+UserOOBEBroker.exe             3884       2              
+svchost.exe                    4032       Access Denied  
+BraveCrashHandler64.exe        4084       Access Denied  
+Code.exe                       4112       81             
+NVDisplay.Container.exe        4156       Access Denied  
+RuntimeBroker.exe              4164       7              
+svchost.exe                    4508       Access Denied  
+svchost.exe                    4644       7              
+svchost.exe                    4744       Access Denied  
+conhost.exe                    4792       1              
+svchost.exe                    4808       7              
+BraveCrashHandler.exe          4828       Access Denied  
+RAVBg64.exe                    4856       0              
+dllhost.exe                    4908       7              
+RtkAudioService64.exe          4928       Access Denied  
+svchost.exe                    5024       Access Denied  
+svchost.exe                    5032       Access Denied  
+svchost.exe                    5136       Access Denied  
+wlanext.exe                    5200       Access Denied  
+spoolsv.exe                    5208       Access Denied  
+conhost.exe                    5216       Access Denied  
+brave.exe                      5228       18             
+svchost.exe                    5280       Access Denied  
+svchost.exe                    5360       Access Denied  
+svchost.exe                    5440       Access Denied  
+svchost.exe                    5448       Access Denied  
+OfficeClickToRun.exe           5456       Access Denied  
+svchost.exe                    5484       Access Denied  
+ibmpmsvc.exe                   5532       Access Denied  
+sihost.exe                     5592       1              
+svchost.exe                    5648       10             
+OneApp.IGCC.WinService.exe     5660       Access Denied  
+svchost.exe                    5684       1              
+jhi_service.exe                5696       Access Denied  
+svchost.exe                    5704       Access Denied  
+svchost.exe                    5728       Access Denied  
+nvWmi64.exe                    5892       Access Denied  
+EasyResume.exe                 5920       Access Denied  
+svchost.exe                    5940       Access Denied  
+svchost.exe                    5964       Access Denied  
+SafeExamBrowser.Service.exe    5984       Access Denied  
+svchost.exe                    6000       Access Denied  
+MpDefenderCoreService.exe      6020       Access Denied  
+msedgewebview2.exe             6028       21             
+mysqld.exe                     6052       Access Denied  
+brave.exe                      6100       181            
+mongod.exe                     6112       Access Denied  
+SynTPEnh.exe                   6128       3              
+svchost.exe                    6156       Access Denied  
+SynTPEnhService.exe            6180       Access Denied  
+svchost.exe                    6196       11             
+svchost.exe                    6232       Access Denied  
+UltraViewer_Service.exe        6248       Access Denied  
+svchost.exe                    6272       Access Denied  
+PresentationFontCache.exe      6280       Access Denied  
+brave.exe                      6360       47             
+tnslsnr.exe                    6424       Access Denied  
+WMIRegistrationService.exe     6436       Access Denied  
+oravssw.exe                    6448       Access Denied  
+RuntimeBroker.exe              6476       0              
+oracle.exe                     6488       Access Denied  
+svchost.exe                    6516       Access Denied  
+omtsreco.exe                   6536       Access Denied  
+wslservice.exe                 6552       Access Denied  
+taskhostw.exe                  6588       Access Denied  
+MsMpEng.exe                    6660       Access Denied  
+svchost.exe                    6744       Access Denied  
+Code.exe                       6864       28             
+LockApp.exe                    6888       11             
+svchost.exe                    7108       Access Denied  
+mysqld.exe                     7392       Access Denied  
+conhost.exe                    7416       Access Denied  
+brave.exe                      7424       27             
+PowerMgr.exe                   7444       0              
+conhost.exe                    7456       1              
+Code.exe                       7516       8              
+taskhostw.exe                  7520       11             
+svchost.exe                    7536       Access Denied  
+conhost.exe                    7540       1              
+igfxEM.exe                     7604       2              
+SystemSettingsBroker.exe       7716       5              
+EpicOnlineServicesUserHelper.exe 7724       4              
+svchost.exe                    7736       Access Denied  
+conhost.exe                    7784       1              
+brave.exe                      7816       10             
+explorer.exe                   7876       59             
+brave.exe                      7896       29             
+brave.exe                      7912       13             
+SearchIndexer.exe              8020       Access Denied  
+SearchApp.exe                  8040       9              
+svchost.exe                    8596       Access Denied  
+msedgewebview2.exe             8628       90             
+nvWmi64.exe                    8676       Access Denied  
+svchost.exe                    8736       Access Denied  
+AggregatorHost.exe             8784       Access Denied  
+svchost.exe                    8928       Access Denied  
+svchost.exe                    8992       Access Denied  
+SDXHelper.exe                  9148       9              
+brave.exe                      9256       12             
+TabTip.exe                     9332       Access Denied  
+brave.exe                      9344       10             
+SynTPHelper.exe                9384       Access Denied  
+svchost.exe                    9420       Access Denied  
+brave.exe                      9452       10             
+svchost.exe                    9592       Access Denied  
+brave.exe                      9628       11             
+NisSrv.exe                     9752       Access Denied  
+dllhost.exe                    9856       Access Denied  
+svchost.exe                    9940       Access Denied  
+python.exe                     10244      22             
+MoUsoCoreWorker.exe            10260      Access Denied  
+RuntimeBroker.exe              10276      5              
+svchost.exe                    10604      Access Denied  
+svchost.exe                    10828      1              
+ctfmon.exe                     10844      Access Denied  
+SecurityHealthSystray.exe      10868      1              
+RuntimeBroker.exe              10876      11             
+svchost.exe                    11076      Access Denied  
+TextInputHost.exe              11156      7              
+powershell.exe                 11164      9              
+powershell.exe                 11520      10             
+svchost.exe                    11816      Access Denied  
+svchost.exe                    12004      Access Denied  
+Code.exe                       12132      53             
+powershell.exe                 12368      10             
+Code.exe                       12444      8              
+taskhostw.exe                  12564      2              
+conhost.exe                    12604      1              
+RuntimeBroker.exe              12624      5              
+PhoneExperienceHost.exe        12720      148            
+msedgewebview2.exe             12800      6              
+igfxext.exe                    12932      0              
+msedgewebview2.exe             12992      19             
+msedgewebview2.exe             13020      3              
+SearchApp.exe                  13176      51             
+brave.exe                      13232      15             
+RAVCpl64.exe                   13252      0              
+DolbyDAX2API.exe               13280      Access Denied  
+svchost.exe                    13404      Access Denied  
+Code.exe                       13564      2              
+msedgewebview2.exe             13608      33             
+brave.exe                      13740      27             
+Code.exe                       13808      6              
+brave.exe                      13812      12             
+ShellExperienceHost.exe        13840      13             
+pet.exe                        13884      2              
+Code.exe                       13900      16             
+RuntimeBroker.exe              13960      3              
+Code.exe                       14200      9              
+conhost.exe                    14256      1              
+ApplicationFrameHost.exe       14276      6              
+Code.exe                       14316      7              
+SystemSettings.exe             14332      23             
+python.exe                     14472      23             
+brave.exe                      14620      10             
+brave.exe                      14812      10             
+brave.exe                      14872      16             
+OneDrive.Sync.Service.exe      14888      44             
+Code.exe                       14904      58             
+brave.exe                      15012      15             
+brave.exe                      15068      17             
+conhost.exe                    15284      1              
+brave.exe                      15288      25             
+conhost.exe                    15384      1              
+CompPkgSrv.exe                 15388      0              
+brave.exe                      15472      12             
+brave.exe                      15492      37             
+brave.exe                      15760      12             
+brave.exe                      15812      28             
+brave.exe                      15908      10             
+brave.exe                      15916      19             
+EpicGamesLauncher.exe          16080      37             
+brave.exe                      16184      24             
+Code.exe                       16464      5              
+brave.exe                      16468      11             
+Code.exe                       16560      28             
+brave.exe                      16752      27             
+brave.exe                      16888      14             
+powershell.exe                 17336      9              
+svchost.exe                    17544      Access Denied  
+pet.exe                        18524      2              
+brave.exe                      18544      17             
+pet.exe                        18736      2              
+svchost.exe                    18812      Access Denied  
+brave.exe                      18944      16             
+EpicOnlineServicesUserHelper.exe 19056      4              
+brave.exe                      19096      10             
+EpicWebHelper.exe              19240      17             
+brave.exe                      19384      16             
+brave.exe                      19448      14             
+brave.exe                      19540      12             
+python.exe                     19544      2              
+conhost.exe                    19712      3              
+EpicWebHelper.exe              19884      10             
+svchost.exe                    19936      Access Denied  
+Code.exe                       19956      39             
+EpicWebHelper.exe              20020      8              
+brave.exe                      20412      14             
+Code.exe                       21192      32             
+svchost.exe                    21360      Access Denied  
+svchost.exe                    21464      Access Denied  
+-------------------------------------------------------
+Total processes monitored: 143
+Access denied for: 147 process(es)
+Status: COMPLETED SUCCESSFULLY
+================================================================================
+
+
+================================================================================
+[FUNCTION: memory_allocation_monitoring] - Execution Time: 2026-04-04 16:37:05.877911
+================================================================================
+Memory Allocation Monitoring Report - Top 10 Processes
+Process Name                   PID        RSS (MB)        VMS (MB)        Memory %  
+--------------------------------------------------------------------------------
+1. oracle.exe                  6488       1069.91         20255.04        1.64      
+2. Code.exe                    6864       831.96          1172.20         1.27      
+3. Code.exe                    2684       756.44          734.18          1.16      
+4. Code.exe                    19956      729.36          804.30          1.12      
+5. MemCompression              3112       712.56          1.76            1.09      
+6. Code.exe                    3136       507.18          582.94          0.78      
+7. Code.exe                    14904      469.95          413.90          0.72      
+8. EpicGamesLauncher.exe       16080      466.72          217.02          0.71      
+9. EpicWebHelper.exe           19240      414.95          388.88          0.63      
+10. MsMpEng.exe                 6660       413.98          464.12          0.63      
+--------------------------------------------------------------------------------
+Total unique processes scanned: 93
+Status: COMPLETED SUCCESSFULLY
+================================================================================
+
+
+Cycle #1 completed at: 2026-04-04 16:37:06.274739
+Next execution in 10 minute(s)...
+
+********************************************************************************
+MONITORING CYCLE #2
+Cycle Start Time: 2026-04-04 16:47:06.276296
+********************************************************************************
+
+
+================================================================================
+[FUNCTION: thread_monitoring] - Execution Time: 2026-04-04 16:47:06.276296
+================================================================================
+Thread Monitoring Report
+Process Name                   PID        Thread Count   
+-------------------------------------------------------
+System Idle Process            0          8              
+System                         4          232            
+                               72         0              
+csrss.exe                      92         14             
+Registry                       132        4              
+smss.exe                       460        2              
+csrss.exe                      768        11             
+brave.exe                      824        20             
+services.exe                   836        13             
+LsaIso.exe                     844        1              
+lsass.exe                      860        11             
+winlogon.exe                   932        3              
+wininit.exe                    1020       1              
+svchost.exe                    1032       19             
+fontdrvhost.exe                1068       5              
+WUDFHost.exe                   1108       7              
+fontdrvhost.exe                1156       5              
+brave.exe                      1172       11             
+svchost.exe                    1224       14             
+brave.exe                      1236       21             
+svchost.exe                    1272       4              
+brave.exe                      1404       21             
+brave.exe                      1408       19             
+SecurityHealthService.exe      1432       15             
+svchost.exe                    1444       3              
+svchost.exe                    1452       2              
+svchost.exe                    1468       2              
+svchost.exe                    1496       7              
+StartMenuExperienceHost.exe    1540       9              
+svchost.exe                    1572       4              
+svchost.exe                    1580       3              
+dwm.exe                        1620       13             
+svchost.exe                    1736       1              
+IntelCpHDCPSvc.exe             1800       3              
+svchost.exe                    1824       11             
+svchost.exe                    1832       1              
+svchost.exe                    1864       7              
+svchost.exe                    1896       4              
+msedgewebview2.exe             1952       9              
+brave.exe                      2072       20             
+IntelCpHeciSvc.exe             2076       3              
+svchost.exe                    2096       3              
+svchost.exe                    2104       7              
+svchost.exe                    2116       1              
+brave.exe                      2152       19             
+svchost.exe                    2184       2              
+svchost.exe                    2220       10             
+brave.exe                      2224       19             
+brave.exe                      2280       19             
+svchost.exe                    2288       6              
+pet.exe                        2360       9              
+Code.exe                       2404       8              
+svchost.exe                    2412       5              
+svchost.exe                    2420       7              
+svchost.exe                    2440       2              
+conhost.exe                    2448       2              
+svchost.exe                    2452       18             
+svchost.exe                    2460       3              
+svchost.exe                    2504       1              
+SebWindowsServiceWCF.exe       2508       4              
+ngentask.exe                   2568       13             
+svchost.exe                    2572       7              
+svchost.exe                    2588       16             
+svchost.exe                    2640       2              
+Code.exe                       2684       13             
+svchost.exe                    2688       5              
+svchost.exe                    2708       7              
+vmms.exe                       2784       12             
+svchost.exe                    2868       1              
+NVDisplay.Container.exe        2908       31             
+svchost.exe                    2956       16             
+svchost.exe                    2980       4              
+svchost.exe                    2992       5              
+MemCompression                 3112       54             
+Code.exe                       3136       30             
+igfxCUIService.exe             3180       2              
+dasHost.exe                    3244       2              
+svchost.exe                    3284       5              
+svchost.exe                    3292       2              
+svchost.exe                    3404       5              
+brave.exe                      3440       19             
+svchost.exe                    3464       8              
+svchost.exe                    3552       1              
+svchost.exe                    3592       10             
+brave.exe                      3608       7              
+svchost.exe                    3640       6              
+conhost.exe                    3668       5              
+svchost.exe                    3708       14             
+vmcompute.exe                  3824       3              
+EpicWebHelper.exe              3872       16             
+UserOOBEBroker.exe             3884       1              
+svchost.exe                    4032       3              
+TiWorker.exe                   4044       7              
+BraveCrashHandler64.exe        4084       3              
+Code.exe                       4112       58             
+NVDisplay.Container.exe        4156       26             
+RuntimeBroker.exe              4164       12             
+MpCmdRun.exe                   4324       3              
+svchost.exe                    4508       16             
+svchost.exe                    4644       3              
+svchost.exe                    4744       9              
+conhost.exe                    4792       5              
+svchost.exe                    4808       6              
+BraveCrashHandler.exe          4828       3              
+RAVBg64.exe                    4856       4              
+dllhost.exe                    4908       5              
+RtkAudioService64.exe          4928       2              
+svchost.exe                    5024       4              
+svchost.exe                    5032       11             
+svchost.exe                    5136       3              
+wlanext.exe                    5200       1              
+spoolsv.exe                    5208       7              
+conhost.exe                    5216       2              
+brave.exe                      5228       19             
+svchost.exe                    5280       4              
+svchost.exe                    5360       6              
+svchost.exe                    5440       8              
+svchost.exe                    5448       17             
+OfficeClickToRun.exe           5456       21             
+svchost.exe                    5484       18             
+ibmpmsvc.exe                   5532       9              
+sihost.exe                     5592       10             
+svchost.exe                    5648       8              
+OneApp.IGCC.WinService.exe     5660       8              
+svchost.exe                    5684       1              
+jhi_service.exe                5696       2              
+svchost.exe                    5704       6              
+svchost.exe                    5728       8              
+nvWmi64.exe                    5892       1              
+EasyResume.exe                 5920       5              
+svchost.exe                    5940       4              
+svchost.exe                    5964       6              
+SafeExamBrowser.Service.exe    5984       4              
+svchost.exe                    6000       7              
+MpDefenderCoreService.exe      6020       12             
+msedgewebview2.exe             6028       12             
+mysqld.exe                     6052       3              
+brave.exe                      6100       45             
+mongod.exe                     6112       34             
+SynTPEnh.exe                   6128       13             
+svchost.exe                    6156       4              
+SynTPEnhService.exe            6180       5              
+svchost.exe                    6196       6              
+svchost.exe                    6232       4              
+UltraViewer_Service.exe        6248       10             
+svchost.exe                    6272       3              
+PresentationFontCache.exe      6280       4              
+brave.exe                      6360       19             
+tnslsnr.exe                    6424       3              
+WMIRegistrationService.exe     6436       2              
+oravssw.exe                    6448       2              
+RuntimeBroker.exe              6476       2              
+oracle.exe                     6488       90             
+svchost.exe                    6516       7              
+omtsreco.exe                   6536       4              
+wslservice.exe                 6552       8              
+taskhostw.exe                  6588       7              
+MsMpEng.exe                    6660       45             
+svchost.exe                    6744       5              
+Code.exe                       6864       13             
+LockApp.exe                    6888       12             
+svchost.exe                    7108       12             
+mysqld.exe                     7392       40             
+conhost.exe                    7416       4              
+brave.exe                      7424       21             
+PowerMgr.exe                   7444       10             
+conhost.exe                    7456       2              
+Code.exe                       7516       28             
+taskhostw.exe                  7520       13             
+svchost.exe                    7536       28             
+conhost.exe                    7540       2              
+igfxEM.exe                     7604       3              
+SystemSettingsBroker.exe       7716       15             
+EpicOnlineServicesUserHelper.exe 7724       11             
+svchost.exe                    7736       2              
+conhost.exe                    7784       2              
+brave.exe                      7816       18             
+explorer.exe                   7876       64             
+brave.exe                      7896       19             
+brave.exe                      7912       21             
+SearchIndexer.exe              8020       20             
+SearchApp.exe                  8040       13             
+svchost.exe                    8596       1              
+msedgewebview2.exe             8628       55             
+nvWmi64.exe                    8676       5              
+svchost.exe                    8736       3              
+AggregatorHost.exe             8784       4              
+svchost.exe                    8928       12             
+svchost.exe                    8992       1              
+WmiPrvSE.exe                   9144       10             
+SDXHelper.exe                  9148       15             
+brave.exe                      9256       19             
+TabTip.exe                     9332       6              
+brave.exe                      9344       19             
+SynTPHelper.exe                9384       1              
+svchost.exe                    9420       14             
+brave.exe                      9452       19             
+svchost.exe                    9592       2              
+brave.exe                      9628       19             
+NisSrv.exe                     9752       7              
+dllhost.exe                    9856       7              
+svchost.exe                    9940       9              
+python.exe                     10244      6              
+MoUsoCoreWorker.exe            10260      9              
+RuntimeBroker.exe              10276      5              
+svchost.exe                    10604      3              
+svchost.exe                    10828      3              
+ctfmon.exe                     10844      11             
+SecurityHealthSystray.exe      10868      6              
+RuntimeBroker.exe              10876      16             
+TrustedInstaller.exe           10944      6              
+svchost.exe                    11076      12             
+conhost.exe                    11152      7              
+TextInputHost.exe              11156      10             
+powershell.exe                 11164      11             
+powershell.exe                 11520      11             
+svchost.exe                    11816      5              
+svchost.exe                    12004      1              
+Code.exe                       12132      19             
+powershell.exe                 12368      12             
+Code.exe                       12444      27             
+taskhostw.exe                  12564      6              
+conhost.exe                    12604      2              
+RuntimeBroker.exe              12624      2              
+PhoneExperienceHost.exe        12720      17             
+msedgewebview2.exe             12800      12             
+igfxext.exe                    12932      2              
+msedgewebview2.exe             12992      23             
+msedgewebview2.exe             13020      23             
+SearchApp.exe                  13176      59             
+brave.exe                      13232      19             
+RAVCpl64.exe                   13252      6              
+DolbyDAX2API.exe               13280      8              
+svchost.exe                    13404      2              
+Code.exe                       13564      7              
+msedgewebview2.exe             13608      25             
+brave.exe                      13740      21             
+Code.exe                       13808      17             
+brave.exe                      13812      19             
+ShellExperienceHost.exe        13840      33             
+pet.exe                        13884      9              
+Code.exe                       13900      20             
+RuntimeBroker.exe              13960      15             
+Code.exe                       14200      34             
+conhost.exe                    14256      5              
+ApplicationFrameHost.exe       14276      2              
+Code.exe                       14316      26             
+SystemSettings.exe             14332      19             
+python.exe                     14472      6              
+brave.exe                      14620      18             
+brave.exe                      14812      12             
+brave.exe                      14872      19             
+OneDrive.Sync.Service.exe      14888      29             
+Code.exe                       14904      19             
+brave.exe                      15012      19             
+brave.exe                      15068      19             
+conhost.exe                    15284      5              
+brave.exe                      15288      19             
+conhost.exe                    15384      2              
+CompPkgSrv.exe                 15388      1              
+brave.exe                      15472      19             
+brave.exe                      15492      20             
+brave.exe                      15760      19             
+MpCmdRun.exe                   15772      4              
+brave.exe                      15812      23             
+brave.exe                      15908      10             
+brave.exe                      15916      10             
+EpicGamesLauncher.exe          16080      59             
+brave.exe                      16184      19             
+Code.exe                       16464      12             
+brave.exe                      16468      20             
+Code.exe                       16560      8              
+svchost.exe                    16724      10             
+brave.exe                      16752      22             
+brave.exe                      16888      19             
+powershell.exe                 17336      11             
+svchost.exe                    17544      4              
+conhost.exe                    18032      5              
+pet.exe                        18524      9              
+brave.exe                      18544      19             
+pet.exe                        18736      9              
+svchost.exe                    18812      5              
+brave.exe                      18944      19             
+EpicOnlineServicesUserHelper.exe 19056      13             
+brave.exe                      19096      18             
+EpicWebHelper.exe              19240      16             
+brave.exe                      19384      19             
+brave.exe                      19448      19             
+brave.exe                      19540      18             
+python.exe                     19544      2              
+MpCmdRun.exe                   19564      3              
+svchost.exe                    19576      16             
+conhost.exe                    19712      3              
+EpicWebHelper.exe              19884      11             
+svchost.exe                    19936      5              
+Code.exe                       19956      31             
+EpicWebHelper.exe              20020      8              
+MpCmdRun.exe                   20244      3              
+conhost.exe                    20252      8              
+conhost.exe                    20408      8              
+brave.exe                      20412      19             
+svchost.exe                    20568      5              
+conhost.exe                    20736      8              
+Code.exe                       21192      8              
+taskhostw.exe                  21432      11             
+svchost.exe                    21464      13             
+-------------------------------------------------------
+Total processes monitored: 306
+Status: COMPLETED SUCCESSFULLY
+================================================================================
+
+
+================================================================================
+[FUNCTION: open_files_monitoring] - Execution Time: 2026-04-04 16:47:07.504298
+================================================================================
+Open Files Monitoring Report
+Process Name                   PID        Open Files     
+-------------------------------------------------------
+System Idle Process            0          0              
+System                         4          0              
+                               72         Access Denied  
+csrss.exe                      92         Access Denied  
+Registry                       132        Access Denied  
+smss.exe                       460        Access Denied  
+csrss.exe                      768        Access Denied  
+brave.exe                      824        32             
+services.exe                   836        Access Denied  
+LsaIso.exe                     844        Access Denied  
+lsass.exe                      860        Access Denied  
+winlogon.exe                   932        Access Denied  
+wininit.exe                    1020       Access Denied  
+svchost.exe                    1032       Access Denied  
+fontdrvhost.exe                1068       Access Denied  
+WUDFHost.exe                   1108       Access Denied  
+fontdrvhost.exe                1156       Access Denied  
+brave.exe                      1172       22             
+svchost.exe                    1224       Access Denied  
+brave.exe                      1236       23             
+svchost.exe                    1272       Access Denied  
+brave.exe                      1404       26             
+brave.exe                      1408       12             
+SecurityHealthService.exe      1432       Access Denied  
+svchost.exe                    1444       Access Denied  
+svchost.exe                    1452       Access Denied  
+svchost.exe                    1468       Access Denied  
+svchost.exe                    1496       Access Denied  
+StartMenuExperienceHost.exe    1540       13             
+svchost.exe                    1572       Access Denied  
+svchost.exe                    1580       Access Denied  
+dwm.exe                        1620       Access Denied  
+svchost.exe                    1736       Access Denied  
+IntelCpHDCPSvc.exe             1800       Access Denied  
+svchost.exe                    1824       Access Denied  
+svchost.exe                    1832       Access Denied  
+svchost.exe                    1864       Access Denied  
+svchost.exe                    1896       Access Denied  
+msedgewebview2.exe             1952       1              
+brave.exe                      2072       12             
+IntelCpHeciSvc.exe             2076       Access Denied  
+svchost.exe                    2096       Access Denied  
+svchost.exe                    2104       Access Denied  
+svchost.exe                    2116       1              
+brave.exe                      2152       15             
+svchost.exe                    2184       Access Denied  
+svchost.exe                    2220       Access Denied  
+brave.exe                      2224       6              
+brave.exe                      2280       26             
+svchost.exe                    2288       Access Denied  
+pet.exe                        2360       2              
+Code.exe                       2404       28             
+svchost.exe                    2412       Access Denied  
+svchost.exe                    2420       Access Denied  
+svchost.exe                    2440       Access Denied  
+conhost.exe                    2448       1              
+svchost.exe                    2452       Access Denied  
+svchost.exe                    2460       Access Denied  
+svchost.exe                    2504       Access Denied  
+SebWindowsServiceWCF.exe       2508       Access Denied  
+ngentask.exe                   2568       Access Denied  
+svchost.exe                    2572       Access Denied  
+svchost.exe                    2588       Access Denied  
+svchost.exe                    2640       Access Denied  
+Code.exe                       2684       28             
+svchost.exe                    2688       Access Denied  
+svchost.exe                    2708       Access Denied  
+vmms.exe                       2784       Access Denied  
+svchost.exe                    2868       Access Denied  
+NVDisplay.Container.exe        2908       Access Denied  
+svchost.exe                    2956       Access Denied  
+svchost.exe                    2980       Access Denied  
+svchost.exe                    2992       Access Denied  
+MemCompression                 3112       Access Denied  
+Code.exe                       3136       40             
+igfxCUIService.exe             3180       Access Denied  
+dasHost.exe                    3244       Access Denied  
+svchost.exe                    3284       Access Denied  
+svchost.exe                    3292       Access Denied  
+svchost.exe                    3404       Access Denied  
+brave.exe                      3440       14             
+svchost.exe                    3464       Access Denied  
+svchost.exe                    3552       Access Denied  
+svchost.exe                    3592       Access Denied  
+brave.exe                      3608       2              
+svchost.exe                    3640       Access Denied  
+conhost.exe                    3668       1              
+svchost.exe                    3708       Access Denied  
+vmcompute.exe                  3824       Access Denied  
+EpicWebHelper.exe              3872       8              
+UserOOBEBroker.exe             3884       2              
+svchost.exe                    4032       Access Denied  
+TiWorker.exe                   4044       Access Denied  
+BraveCrashHandler64.exe        4084       Access Denied  
+Code.exe                       4112       82             
+NVDisplay.Container.exe        4156       Access Denied  
+RuntimeBroker.exe              4164       7              
+MpCmdRun.exe                   4324       Access Denied  
+svchost.exe                    4508       Access Denied  
+svchost.exe                    4644       7              
+svchost.exe                    4744       Access Denied  
+conhost.exe                    4792       1              
+svchost.exe                    4808       7              
+BraveCrashHandler.exe          4828       Access Denied  
+RAVBg64.exe                    4856       0              
+dllhost.exe                    4908       7              
+RtkAudioService64.exe          4928       Access Denied  
+svchost.exe                    5024       Access Denied  
+svchost.exe                    5032       Access Denied  
+svchost.exe                    5136       Access Denied  
+wlanext.exe                    5200       Access Denied  
+spoolsv.exe                    5208       Access Denied  
+conhost.exe                    5216       Access Denied  
+brave.exe                      5228       18             
+svchost.exe                    5280       Access Denied  
+svchost.exe                    5360       Access Denied  
+svchost.exe                    5440       Access Denied  
+svchost.exe                    5448       Access Denied  
+OfficeClickToRun.exe           5456       Access Denied  
+svchost.exe                    5484       Access Denied  
+ibmpmsvc.exe                   5532       Access Denied  
+sihost.exe                     5592       1              
+svchost.exe                    5648       10             
+OneApp.IGCC.WinService.exe     5660       Access Denied  
+svchost.exe                    5684       1              
+jhi_service.exe                5696       Access Denied  
+svchost.exe                    5704       Access Denied  
+svchost.exe                    5728       Access Denied  
+nvWmi64.exe                    5892       Access Denied  
+EasyResume.exe                 5920       Access Denied  
+svchost.exe                    5940       Access Denied  
+svchost.exe                    5964       Access Denied  
+SafeExamBrowser.Service.exe    5984       Access Denied  
+svchost.exe                    6000       Access Denied  
+MpDefenderCoreService.exe      6020       Access Denied  
+msedgewebview2.exe             6028       21             
+mysqld.exe                     6052       Access Denied  
+brave.exe                      6100       181            
+mongod.exe                     6112       Access Denied  
+SynTPEnh.exe                   6128       3              
+svchost.exe                    6156       Access Denied  
+SynTPEnhService.exe            6180       Access Denied  
+svchost.exe                    6196       11             
+svchost.exe                    6232       Access Denied  
+UltraViewer_Service.exe        6248       Access Denied  
+svchost.exe                    6272       Access Denied  
+PresentationFontCache.exe      6280       Access Denied  
+brave.exe                      6360       47             
+tnslsnr.exe                    6424       Access Denied  
+WMIRegistrationService.exe     6436       Access Denied  
+oravssw.exe                    6448       Access Denied  
+RuntimeBroker.exe              6476       0              
+oracle.exe                     6488       Access Denied  
+svchost.exe                    6516       Access Denied  
+omtsreco.exe                   6536       Access Denied  
+wslservice.exe                 6552       Access Denied  
+taskhostw.exe                  6588       Access Denied  
+MsMpEng.exe                    6660       Access Denied  
+svchost.exe                    6744       Access Denied  
+Code.exe                       6864       28             
+LockApp.exe                    6888       11             
+svchost.exe                    7108       Access Denied  
+mysqld.exe                     7392       Access Denied  
+conhost.exe                    7416       Access Denied  
+brave.exe                      7424       27             
+PowerMgr.exe                   7444       0              
+conhost.exe                    7456       1              
+Code.exe                       7516       8              
+taskhostw.exe                  7520       11             
+svchost.exe                    7536       Access Denied  
+conhost.exe                    7540       1              
+igfxEM.exe                     7604       2              
+SystemSettingsBroker.exe       7716       5              
+EpicOnlineServicesUserHelper.exe 7724       4              
+svchost.exe                    7736       Access Denied  
+conhost.exe                    7784       1              
+brave.exe                      7816       10             
+explorer.exe                   7876       59             
+brave.exe                      7896       29             
+brave.exe                      7912       13             
+SearchIndexer.exe              8020       Access Denied  
+SearchApp.exe                  8040       9              
+svchost.exe                    8596       Access Denied  
+msedgewebview2.exe             8628       90             
+nvWmi64.exe                    8676       Access Denied  
+svchost.exe                    8736       Access Denied  
+AggregatorHost.exe             8784       Access Denied  
+svchost.exe                    8928       Access Denied  
+svchost.exe                    8992       Access Denied  
+WmiPrvSE.exe                   9144       Access Denied  
+SDXHelper.exe                  9148       9              
+brave.exe                      9256       12             
+TabTip.exe                     9332       Access Denied  
+brave.exe                      9344       10             
+SynTPHelper.exe                9384       Access Denied  
+svchost.exe                    9420       Access Denied  
+brave.exe                      9452       10             
+svchost.exe                    9592       Access Denied  
+brave.exe                      9628       11             
+NisSrv.exe                     9752       Access Denied  
+dllhost.exe                    9856       Access Denied  
+svchost.exe                    9940       Access Denied  
+python.exe                     10244      22             
+MoUsoCoreWorker.exe            10260      Access Denied  
+RuntimeBroker.exe              10276      5              
+svchost.exe                    10604      Access Denied  
+svchost.exe                    10828      1              
+ctfmon.exe                     10844      Access Denied  
+SecurityHealthSystray.exe      10868      1              
+RuntimeBroker.exe              10876      11             
+TrustedInstaller.exe           10944      Access Denied  
+svchost.exe                    11076      Access Denied  
+conhost.exe                    11152      Access Denied  
+TextInputHost.exe              11156      7              
+powershell.exe                 11164      9              
+powershell.exe                 11520      10             
+svchost.exe                    11816      Access Denied  
+svchost.exe                    12004      Access Denied  
+Code.exe                       12132      53             
+powershell.exe                 12368      10             
+Code.exe                       12444      8              
+taskhostw.exe                  12564      2              
+conhost.exe                    12604      1              
+RuntimeBroker.exe              12624      5              
+PhoneExperienceHost.exe        12720      148            
+msedgewebview2.exe             12800      6              
+igfxext.exe                    12932      0              
+msedgewebview2.exe             12992      19             
+msedgewebview2.exe             13020      3              
+SearchApp.exe                  13176      51             
+brave.exe                      13232      15             
+RAVCpl64.exe                   13252      0              
+DolbyDAX2API.exe               13280      Access Denied  
+svchost.exe                    13404      Access Denied  
+Code.exe                       13564      2              
+msedgewebview2.exe             13608      33             
+brave.exe                      13740      27             
+Code.exe                       13808      6              
+brave.exe                      13812      12             
+ShellExperienceHost.exe        13840      13             
+pet.exe                        13884      2              
+Code.exe                       13900      16             
+RuntimeBroker.exe              13960      3              
+Code.exe                       14200      9              
+conhost.exe                    14256      1              
+ApplicationFrameHost.exe       14276      6              
+Code.exe                       14316      7              
+SystemSettings.exe             14332      23             
+python.exe                     14472      23             
+brave.exe                      14620      10             
+brave.exe                      14812      10             
+brave.exe                      14872      16             
+OneDrive.Sync.Service.exe      14888      43             
+Code.exe                       14904      58             
+brave.exe                      15012      15             
+brave.exe                      15068      17             
+conhost.exe                    15284      1              
+brave.exe                      15288      25             
+conhost.exe                    15384      1              
+CompPkgSrv.exe                 15388      0              
+brave.exe                      15472      12             
+brave.exe                      15492      37             
+brave.exe                      15760      12             
+MpCmdRun.exe                   15772      Access Denied  
+brave.exe                      15812      28             
+brave.exe                      15908      10             
+brave.exe                      15916      19             
+EpicGamesLauncher.exe          16080      37             
+brave.exe                      16184      24             
+Code.exe                       16464      5              
+brave.exe                      16468      11             
+Code.exe                       16560      28             
+svchost.exe                    16724      Access Denied  
+brave.exe                      16752      27             
+brave.exe                      16888      14             
+powershell.exe                 17336      9              
+svchost.exe                    17544      Access Denied  
+conhost.exe                    18032      Access Denied  
+pet.exe                        18524      2              
+brave.exe                      18544      17             
+pet.exe                        18736      2              
+svchost.exe                    18812      Access Denied  
+brave.exe                      18944      16             
+EpicOnlineServicesUserHelper.exe 19056      4              
+brave.exe                      19096      10             
+EpicWebHelper.exe              19240      17             
+brave.exe                      19384      16             
+brave.exe                      19448      14             
+brave.exe                      19540      12             
+python.exe                     19544      2              
+MpCmdRun.exe                   19564      Access Denied  
+svchost.exe                    19576      Access Denied  
+conhost.exe                    19712      3              
+EpicWebHelper.exe              19884      10             
+svchost.exe                    19936      Access Denied  
+Code.exe                       19956      39             
+EpicWebHelper.exe              20020      8              
+MpCmdRun.exe                   20244      Access Denied  
+conhost.exe                    20252      Access Denied  
+conhost.exe                    20408      Access Denied  
+brave.exe                      20412      14             
+svchost.exe                    20568      Access Denied  
+conhost.exe                    20736      Access Denied  
+Code.exe                       21192      32             
+taskhostw.exe                  21432      Access Denied  
+svchost.exe                    21464      Access Denied  
+-------------------------------------------------------
+Total processes monitored: 143
+Access denied for: 163 process(es)
+Status: COMPLETED SUCCESSFULLY
+================================================================================
+
+
+================================================================================
+[FUNCTION: memory_allocation_monitoring] - Execution Time: 2026-04-04 16:47:26.919295
+================================================================================
+Memory Allocation Monitoring Report - Top 10 Processes
+Process Name                   PID        RSS (MB)        VMS (MB)        Memory %  
+--------------------------------------------------------------------------------
+1. oracle.exe                  6488       1070.32         20255.29        1.64      
+2. Code.exe                    19956      969.61          1042.50         1.48      
+3. Code.exe                    2684       797.95          775.29          1.22      
+4. Code.exe                    6864       781.15          1121.12         1.20      
+5. MemCompression              3112       712.55          1.76            1.09      
+6. Code.exe                    14904      529.97          476.98          0.81      
+7. MsMpEng.exe                 6660       510.79          514.98          0.78      
+8. Code.exe                    3136       508.86          584.89          0.78      
+9. EpicGamesLauncher.exe       16080      466.83          217.09          0.71      
+10. EpicWebHelper.exe           19240      416.95          390.57          0.64      
+--------------------------------------------------------------------------------
+Total unique processes scanned: 100
+Status: COMPLETED SUCCESSFULLY
+================================================================================
+
+
+Cycle #2 completed at: 2026-04-04 16:47:27.514294
+Next execution in 10 minute(s)...
+
+Monitoring stopped by user at: 2026-04-05 01:44:31.647930
