@@ -1,100 +1,65 @@
 """
-1. Write a Python program that classifies a new data point using the K-Nearest Neighbors algorithm.
-The algorithm should be implemented manually without using any machine learning library.
-The program should:
-• Calculate Euclidean distance
-• Sort distances
-• Select K nearest neighbors
-• Predict the class based on majority voting
+1. Implement Simple Linear Regression manually without using any ML library.
+Dataset
+X = [1,2,3,4,5]
+Y = [3,4,2,4,5]
 
 Tasks
-1. Accept X and Y coordinates of a new point from the user.
-2. Compute Euclidean distance from all dataset points.
-3. Sort the distances.
-4. Select K = 3 nearest neighbors.
-5. Predict the class label.
+Calculate:
+1. Mean of X (X̄ )
+2. Mean of Y (Ȳ)
+3. Slope (m)
+4. Intercept (c)
 
-Input Format
-Enter X coordinate: 2
-Enter Y coordinate: 2
-Expected Output
-Nearest Neighbors:
-A - Distance: 1.0
-B - Distance: 1.0
-C - Distance: 1.41
-Predicted Class: Red
+Expected Output Example
+Mean of X = 3
+Mean of Y = 3.6
+Slope (m) = 0.4
+Intercept (c) = 2.4
+Regression Equation:
+Y = 0.4X + 2.4
+Predicted Y for X = 6 : 4.8
 """
-
 import pandas as pd
 import numpy as np
 
-data = {"Point": ['A', 'B', 'C', 'D'],
-        "X": [1,2,3,6],
-        "Y": [2,3,1,5],
-        "Label": ['Red', 'Red', 'Blue', 'Blue']}
+def mean_x(X):
+    return np.mean(X)
 
-#Create DataFrame
-df = pd.DataFrame(data)
+def mean_y(Y):
+    return np.mean(Y)
 
-print("Dataset is: \n", df)
+def slope(X, Y):
+    X_mean = mean_x(X)
+    Y_mean = mean_y(Y)
+    numerator = np.sum((X - X_mean) * (Y - Y_mean))
+    denominator = np.sum((X - X_mean) ** 2)
+    return numerator / denominator
 
-#Calculate Euclidean distance
-#Step 5
-def euclidean_distance(point1, point2):
-    point1_x1, point1_y1 = point1
-    point2_x2, point2_y2 = point2
-    return np.sqrt((point2_x2-point1_x1)**2 + (point2_y2-point1_y1)**2)
+def intercept(X, Y, m):
+    X_mean = mean_x(X)
+    Y_mean = mean_y(Y)
+    return Y_mean - m * X_mean
 
-#Sort distances
-#Step 4
-def calculate_distances(df, new_point):
-    distances = []
-    for index, row in df.iterrows():
-        existing_point = (row['X'], row['Y'])
-        distance = euclidean_distance(existing_point, new_point)
-        distances.append((distance, row['Point'], row['Label']))
+def predict(m, c, X):
+    return m * X + c
 
-    print(distances)
-    return distances
-
-#Step 3
-def sort_distances(df, new_point):
-    distances = calculate_distances(df, new_point)
-    distances.sort(key=lambda x: x[0])
-    return distances
-
-#Select K nearest neighbors
-#Step 2
-def k_nearest_neighbors(df, new_point, k):
-    sorted_distances = sort_distances(df, new_point)
-    neighbors = sorted_distances[:k]
-    print("Nearest Neighbors:")
-    for distance, point, label in neighbors:
-        print(f"{point} - Distance: {distance:.2f}")
-    return neighbors
-
-#Predict the class based on majority voting
-#Step 1
-def predict_class(df, new_point, k):
-    neighbors = k_nearest_neighbors(df, new_point, k)
-    labels = [neighbor[2] for neighbor in neighbors]
-    predicted_label = max(set(labels), key=labels.count)
-    return predicted_label
-
-#updating the df with calculated distances for better visualization
-def update_df_with_distances(df, new_point):
-    distances = calculate_distances(df, new_point)
-    df['Distance'] = [distance[0] for distance in distances]
-    return df
-
-#print("Dataset with calculated distances: \n", update_df_with_distances(df, (4, 4)))
 def main():
-    input_x = int(input("Enter X coordinate: "))
-    input_y = int(input("Enter Y coordinate: "))
-    new_point = (input_x, input_y)
-    k = 5
-    predicted_label = predict_class(df, new_point,k )
-    print(f"Predicted Class: {predicted_label}")
+    X = [1, 2, 3, 4, 5]
+    Y = [3, 4, 2, 4, 5]
+
+    X_mean = mean_x(X)
+    Y_mean = mean_y(Y)
+    m = slope(X, Y)
+    c = intercept(X, Y, m)
+
+    print(f"Mean of X = {X_mean}")
+    print(f"Mean of Y = {Y_mean}")
+    print(f"Slope (m) = {m}")
+    print(f"Intercept (c) = {c}")
+    print(f"Regression Equation:\nY = {m}X + {c}")
+    print(f"Predicted Y for X = 6 : {round(predict(m, c, 6), 1)}")
+
 
 if __name__ == "__main__":
     main()

@@ -1,71 +1,48 @@
 """
-3. Use KNN to predict whether a student passes or fails based on study hours and attendance.
+3. Consider below task
+1. Train linear regression model.
+2. Predict salary for 6 years of experience.
+3. Plot regression line using matplotlib.
 
-Tasks
-1. Accept input from user:
-◦ Study hours
-◦ Attendance percentage
-2. Apply KNN algorithm
-3. Predict whether the student Passes or Fails
-
-Input Example
-Enter Study Hours: 4
-Enter Attendance: 70
 Expected Output
-Predicted Result: Pass
+Predicted Salary for 6 Years Experience: ₹45000
+Graph should display:
+• Data points
+• Regression line
 """
+
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsClassifier 
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
 
-#Dataset
-data = {"StudyHours": [2, 5, 6, 1],
-        "Attendance": [60, 80, 85, 50],
-        "FinalResult": ['Fail', 'Pass', 'Pass', 'Fail']}
-
-#Create DataFrame
-df = pd.DataFrame(data)
-print("Dataset is: \n", df)
-
-def preprocess_data(df):
-    df = df.copy()
-    df['FinalResult'] = df['FinalResult'].map({'Pass': 1, 'Fail': 0})
-    return df
-
-def split_data(df):
-    df = preprocess_data(df)
-    X = df[['StudyHours', 'Attendance']]
-    y = df['FinalResult']
-    return train_test_split(X, y, test_size=0.1, random_state=42)
-
-def train_model(X_train, y_train):
-    model = KNeighborsClassifier(n_neighbors=1)
-    model.fit(X_train, y_train)
+def train_linear_regression(X, Y):
+    model = LinearRegression()
+    model.fit(X.reshape(-1, 1), Y)
     return model
 
-def test_model(model, X_test):
-    return model.predict(X_test)
-
-def parse_output(prediction):
-    return "Pass" if prediction[0] == 0 else "Fail"
-
 def main():
-    X_train, X_test, y_train, y_test = split_data(df)
-    model = train_model(X_train, y_train)
-    y_pred = test_model(model, X_test)
-    print("Model Accuracy:", accuracy_score(y_test, y_pred))
+    # Sample data (replace with actual dataset)
+    X = np.array([1, 2, 3, 4, 5])
+    Y = np.array([20000, 25000, 30000, 35000, 40000])
 
-    #Inputs
-    study_hours = int(input("Enter Study Hours: "))
-    attendance = int(input("Enter Attendance: "))
-    new_data = pd.DataFrame([[study_hours, attendance]], columns=['StudyHours', 'Attendance'])
-    prediction = model.predict(new_data)
-    #print("Raw Prediction:", prediction)
+    # Train the model
+    model = train_linear_regression(X, Y)
 
-    result = parse_output(prediction)
-    print("Predicted Result:", result)
+    # Predict salary for 6 years of experience
+    predicted_salary = model.predict(np.array([[6]]))
+    print(f"Predicted Salary for 6 Years Experience: ₹{int(predicted_salary[0])}")
+
+    # Plot the regression line
+    plt.scatter(X, Y, color='blue', label='Data points')
+    plt.plot(X, model.predict(X.reshape(-1, 1)), color='red', label='Regression line')
+    plt.xlabel('Years of Experience')
+    plt.ylabel('Salary')
+    plt.title('Linear Regression: Salary vs Years of Experience')
+    plt.legend()
+    plt.savefig("salary_regression.png")
+    plt.show()
+    plt.close()
 
 if __name__ == "__main__":
     main()

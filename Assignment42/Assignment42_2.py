@@ -1,56 +1,60 @@
 '''
-2. The value of K plays an important role in the KNN algorithm.
-Write a Python program that demonstrates how prediction changes when K changes.
-Dataset
-Use the same dataset as Assignment 1.
+2. Using the same dataset from above question, calculate model performance.
 Tasks
-Predict the class of the same new point using:
-• K = 1
-• K = 3
-• K = 5
-Expected Output
-Prediction Results
-K = 1 → Red
-K = 3 → Red
-K = 5 → Blue
-Explain why the prediction changes when K increases.
+1. Predict all Y values using regression equation.
+2. Calculate:
+• Mean Squared Error (MSE)
+• R2 Score
+Show all intermediate calculations.
 '''
-from Assignment41_1 import df, euclidean_distance, calculate_distances, sort_distances
+
+import pandas as pd
+import numpy as np
+
+def mean_x(X):
+    return np.mean(X)
+
+def mean_y(Y):
+    return np.mean(Y)
+
+def slope(X, Y):
+    X_mean = mean_x(X)
+    Y_mean = mean_y(Y)
+    numerator = np.sum((X - X_mean) * (Y - Y_mean))
+    denominator = np.sum((X - X_mean) ** 2)
+    return numerator / denominator
+
+def intercept(X, Y, m):
+    X_mean = mean_x(X)
+    Y_mean = mean_y(Y)
+    return Y_mean - m * X_mean
+
+def predict(m, c, X):
+    return m * X + c
 
 def main():
-    input_x = int(input("Enter X coordinate: "))
-    input_y = int(input("Enter Y coordinate: "))
-    new_point = (input_x, input_y)
+    X = [1, 2, 3, 4, 5]
+    Y = [3, 4, 2, 4, 5]
 
-    sorted_distances = sort_distances(df, new_point)
-    print("Sorted Distances:")
+    X_mean = mean_x(X)
+    Y_mean = mean_y(Y)
+    m = slope(X, Y)
+    c = intercept(X, Y, m)
 
-    for distance, point, label in sorted_distances:
-        print(f"{point} - Distance: {distance:.2f}")
+    print(f"Mean of X = {X_mean}")
+    print(f"Mean of Y = {Y_mean}")
+    print(f"Slope (m) = {m}")
+    print(f"Intercept (c) = {c}")
+    print(f"Regression Equation:\nY = {m}X + {c}")
 
-    print("_" * 50)
+    predicted_Y = [predict(m, c, x) for x in X]
+    print(f"Predicted Y values: {predicted_Y}")
 
-    for k in [1, 3, 5, 10]:
-        neighbors = sorted_distances[:k]
-        labels = [neighbor[2] for neighbor in neighbors]
-        predicted_label = max(set(labels), key=labels.count)
-        print(f"K = {k} → Predicted Label: {predicted_label}")
+    mse = np.mean((np.array(Y) - np.array(predicted_Y)) ** 2)
+    r2_score = 1 - (np.sum((np.array(Y) - np.array(predicted_Y)) ** 2) / np.sum((np.array(Y) - Y_mean) ** 2))
 
-"""
-The Value of K in KNN determines how many nearest neighbors are considered when making a prediction.
-When K is small (e.g., K=1), the prediction is based on the closest neighbor, which can lead to a 
-more flexible model that may capture noise in the data. 
-As K increases, the model becomes more generalized, as it considers more neighbors for making a 
-prediction. This can lead to a smoother decision boundary and may help reduce the impact of outliers.
-However, if K is too large, it may include neighbors that are not relevant to the new point, leading
-to incorrect predictions. Therefore, 
-choosing an appropriate value of K is crucial for the performance of the KNN algorithm.  
-
-Hence, when the k value is increased, the prediction may change because the algorithm is considering
-more neighbors, which can lead to a different majority class among those neighbors. 
-This is why the prediction can change as K increases.
-
-"""
+    print(f"Mean Squared Error (MSE): {mse}")
+    print(f"R2 Score: {round(r2_score, 2)}")
 
 if __name__ == "__main__":
     main()
